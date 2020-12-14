@@ -1,0 +1,195 @@
+{
+  "id": "9c54ba9e-e230-4e67-9350-ab6eef28d73c",
+  "name": "Education",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ashish is a Double Post Graduate with Engineering Background."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "1. MBA+ (8.82 CGPA): SCM Management - 2019 \n2. MBA (8.33): Operations Management - 2018 \n3. B.E. (EnTC): Pune University, SPPU - 2015 \n4. 12th: Shri Mhalsakant Jr College,MH SB - 2011\n5. 10th: Shri Mhalsakant Vidyalay,MH SB - 2009"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please Visit Ashish\u0027s Linkedin Profile to know more about Education Details."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Ashish\u0027s Linkedin Profile",
+                      "link": "https://www.linkedin.com/in/ashish-gore234/"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What Else do you want to know about Ashish?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "About"
+                    },
+                    {
+                      "text": "Skills"
+                    },
+                    {
+                      "text": "Experiences"
+                    },
+                    {
+                      "text": "Projects"
+                    },
+                    {
+                      "text": "Education"
+                    },
+                    {
+                      "text": "Certifications"
+                    },
+                    {
+                      "text": "Nothing"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "1. MBA+ (8.82 CGPA): SCM Management - 2019 \n2. MBA (8.33): Operations Management - 2018 \n3. B.E. (EnTC): Pune University, SPPU - 2015 \n4. 12th: Shri Mhalsakant Jr College,MH SB - 2011\n5. 10th: Shri Mhalsakant Vidyalay,MH SB - 2009",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Please Visit Ashish\u0027s Linkedin Profile to know more about Education Details.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "About"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Experiences"
+            },
+            {
+              "title": "Projects"
+            },
+            {
+              "title": "Certifications"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "Ashish\u0027s Linkedin Profile",
+          "url": "https://www.linkedin.com/in/ashish-gore234/",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

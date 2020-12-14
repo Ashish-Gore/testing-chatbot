@@ -1,0 +1,119 @@
+{
+  "id": "5fdce4c6-6915-4372-ae30-ca56650127b6",
+  "name": "No, Thank You.",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What Else do you want to know about Ashish?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Skills"
+                    },
+                    {
+                      "text": "Experiences"
+                    },
+                    {
+                      "text": "Projects"
+                    },
+                    {
+                      "text": "Education"
+                    },
+                    {
+                      "text": "Certifications"
+                    },
+                    {
+                      "text": "Nothing"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "What Else do you want to know about Ashish?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "About"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Experiences"
+            },
+            {
+              "title": "Projects"
+            },
+            {
+              "title": "Certifications"
+            },
+            {
+              "title": "Education"
+            },
+            {
+              "title": "Nothing"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

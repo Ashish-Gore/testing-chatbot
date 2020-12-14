@@ -1,0 +1,28 @@
+[
+  {
+    "id": "48594c20-ee47-4058-80de-c0f5c181e690",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0ea6d89d-b262-4479-ab7c-a907f35c8590",
+    "data": [
+      {
+        "text": "No, Thank You.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,140 @@
+{
+  "id": "09ed6815-dcb4-493d-8a02-4baaeae4d387",
+  "name": "About_Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ashish is a passionate Data Science Enthusiast with 2 years of working experience. He built Machine Learning Models for Innodatatics using Python. He Believe, He is Good with Data Cleaning, Exploratory Data Analysis, Model Building, Deployement. He is having Experience working on projects in similar areas. He is an Engineer with very good technical Knowledge. Also a Double Post Graduate From one of the Pune university\u0027s Best Ranked College. And Former Employee of Flipkart India Pvt Ltd."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What Else do you want to know about Ashish?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Skills"
+                    },
+                    {
+                      "text": "Experiences"
+                    },
+                    {
+                      "text": "Projects"
+                    },
+                    {
+                      "text": "Education"
+                    },
+                    {
+                      "text": "Certifications"
+                    },
+                    {
+                      "text": "Nothing"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Ashish is a passionate Data Science Enthusiast with 2 years of working experience. He built Machine Learning Models for Innodatatics using Python. He Believe, He is Good with Data Cleaning, Exploratory Data Analysis, Model Building, Deployement. He is having Experience working on projects in similar areas. He is an Engineer with very good technical Knowledge. Also a Double Post Graduate From one of the Pune university\u0027s Best Ranked College. And Former Employee of Flipkart India Pvt Ltd.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "What Else do you want to know about Ashish?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Experiences"
+            },
+            {
+              "title": "Projects"
+            },
+            {
+              "title": "Certifications"
+            },
+            {
+              "title": "Education"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

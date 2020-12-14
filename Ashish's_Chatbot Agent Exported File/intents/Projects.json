@@ -1,0 +1,185 @@
+{
+  "id": "23619318-cb14-4191-9e72-531e50206cad",
+  "name": "Projects",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "1. Impact Prediction Project (Prediction of impact of an incident Raised by user) – Innodatatics Inc., Bengaluru \n2. NLP Ecommerce Project (Retrieval of Top 5 Question and Answers) – Innodatatics Inc., Bengaluru \n3. Multivariate Forecasting Using LSTM (Predict top \u0027Menu Item\u0027 and \u0027Item Qty\u0027 for lunch and dinner for future dates) \n4. Loan Prediction Project (To predict the whether the customer will fall under default or not.) \n5. Web Scraping Using Selenium (To analyze the current job market trends for Data science.)\n6. Data Science Case Studies and Algorithms Using R. \n7. Twitter Sentiment Analysis (To get Daily analysis of a product such as sentiments and emotions using twitter data)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Please Visit Ashish\u0027s GitHub Profile to know more about Projects."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Ashish\u0027s GitHub Profile",
+                      "link": "https://github.com/Ashish-Gore/"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What Else do you want to know about Ashish?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "About"
+                    },
+                    {
+                      "text": "Skills"
+                    },
+                    {
+                      "text": "Experiences"
+                    },
+                    {
+                      "text": "Projects"
+                    },
+                    {
+                      "text": "Education"
+                    },
+                    {
+                      "text": "Certifications"
+                    },
+                    {
+                      "text": "Nothing"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "1. Impact Prediction Project (Prediction of impact of an incident Raised by user) – Innodatatics Inc., Bengaluru \n2. NLP Ecommerce Project (Retrieval of Top 5 Question and Answers) – Innodatatics Inc., Bengaluru \n3. Multivariate Forecasting Using LSTM (Predict top \u0027Menu Item\u0027 and \u0027Item Qty\u0027 for lunch and dinner for future dates) \n4. Loan Prediction Project (To predict the whether the customer will fall under default or not.) \n5. Web Scraping Using Selenium (To analyze the current job market trends for Data science.)\n6. Data Science Case Studies and Algorithms Using R. \n7. Twitter Sentiment Analysis (To get Daily analysis of a product such as sentiments and emotions using twitter data)",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Please Visit Ashish\u0027s GitHub Profile to know more about Projects.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "About"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Experiences"
+            },
+            {
+              "title": "Certifications"
+            },
+            {
+              "title": "Education"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "Ashish\u0027s GitHub Profile",
+          "url": "https://github.com/Ashish-Gore/",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

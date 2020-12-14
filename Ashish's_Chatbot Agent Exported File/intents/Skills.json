@@ -1,0 +1,161 @@
+{
+  "id": "85a0aaaa-edd6-42ea-a812-d843102dcbb2",
+  "name": "Skills",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Check Out Ashish\u0027s Skills in detail on his Website:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Ashish\u0027s Website",
+                      "link": "https://ashishgore.ml/"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What Else do you want to know about Ashish?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "About"
+                    },
+                    {
+                      "text": "Skills"
+                    },
+                    {
+                      "text": "Experiences"
+                    },
+                    {
+                      "text": "Projects"
+                    },
+                    {
+                      "text": "Education"
+                    },
+                    {
+                      "text": "Certifications"
+                    },
+                    {
+                      "text": "Nothing"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Check Out Ashish\u0027s Skills in detail on his Website:",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "About"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Experiences"
+            },
+            {
+              "title": "Projects"
+            },
+            {
+              "title": "Certifications"
+            },
+            {
+              "title": "Education"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "Ashish\u0027s Website",
+          "url": "https://ashishgore.ml/",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
